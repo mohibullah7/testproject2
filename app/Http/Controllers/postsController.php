@@ -323,6 +323,7 @@ class postsController extends Controller
             //  $product = Arr::crossJoin($arr1,$arr2);
              $product = Arr::divide($arr1,$arr2);
             //  prettyphpinfo($product);
+            dd($product);
 
 
             //  $post = Post::sortRecursive();
